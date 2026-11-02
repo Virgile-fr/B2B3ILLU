@@ -61,6 +61,7 @@ h1 { margin: 0; font-size: 52px; font-weight: 600; line-height: 1.08; letter-spa
 .prose a { text-decoration-thickness: 1px; text-underline-offset: 3px; color: var(--accent); }
 .prose img { max-width: 100%; }
 .prose table { border-collapse: collapse; font-size: .9em; }
+.prose tr { break-inside: avoid; }
 .prose th, .prose td { border: 1px solid var(--line); padding: .3em; }
 #text-flow.compact { line-height: 1.25; }
 .prose.compact p { margin-bottom: .64em; }
